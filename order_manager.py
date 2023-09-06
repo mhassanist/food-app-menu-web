@@ -22,14 +22,7 @@ order = []
 
 
 def get_menu_items():
-
-  url = 'https://gist.githubusercontent.com/mhassanist/ebea3d06c5dc942e190a69a8330d4906/raw/923a8cbedd175652abcdc53a0f805d7082cdc3fc/menu.json'
-
-  resp = requests.get(url)
-  data = resp.json()  # Check the JSON Response Content documentation below
-  menu = data['menu']
-
-  return menu
+ return menu
 
 
 def get_order_total():
