@@ -1,5 +1,3 @@
-import requests
-
 menu = [{
   "name": "Burger",
   "price": 5.0,
